@@ -37,6 +37,7 @@ public class Prac_3_1 extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		out.println("<html><body>Hello</body></html>");
 		//ブランチ用のコメント追加
+		//ブランチ用のコメント追加２
 	}
 
 	/**
