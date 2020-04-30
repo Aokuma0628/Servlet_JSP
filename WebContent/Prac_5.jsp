@@ -13,7 +13,7 @@ pageEncoding="utf-8"
 
   <body>
     <h1>問い合わせページ</h1>
-    <form action="/Sukkiri_Servlet/Prac_5" method="post" accept-charset="utf-8">
+    <form action="/Sukkiri_Servlet/Prac_5" method="post" accept-charset="utf-8" autocomplete="off">
       <p>
         <label>名前:<input type="text" name="name" size="20" maxlength="20"></label>
       </p>
