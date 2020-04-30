@@ -36,6 +36,8 @@ public class Prac_3_1 extends HttpServlet {
 		response.setContentType("ABCDE");
 		PrintWriter out = response.getWriter();
 		out.println("<html><body>Hello</body></html>");
+		//ブランチ用のコメント追加
+		//ブランチ用のコメント追加２
 	}
 
 	/**
