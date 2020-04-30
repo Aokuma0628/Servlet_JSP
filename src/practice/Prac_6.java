@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Prac_6 testtest
+ * Servlet implementation class Prac_6 testtestbranch
  */
 @WebServlet("/Prac_6")
 public class Prac_6 extends HttpServlet {
