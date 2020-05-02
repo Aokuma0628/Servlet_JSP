@@ -14,13 +14,13 @@ pageEncoding="UTF-8"
     <h1>ユーザ登録</h1>
     <form action="/Sukkiri_Servlet/RegisterUser" method="post">
       <p>
-        <label>ログインID：<input type="text" name="id"></label>
+        <label>ログインID：<input type="text" name="id" autocomplete="off"></label>
       </p>
       <p>
         <label>パスワード：<input type="password" name="pass"></label>
       </p>
       <p>
-        <label>名前：<input type="text" name="name"></label>
+        <label>名前：<input type="text" name="name" autocomplete="off"></label>
       </p>
       <p>
         <input type="submit" value="確認">

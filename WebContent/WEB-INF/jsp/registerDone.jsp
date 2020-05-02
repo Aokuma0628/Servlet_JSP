@@ -13,7 +13,7 @@ import="model.User"
   </head>
   <body>
     <h1>ユーザ登録完了画面</h1>
-    <p>登録が完了しました</p>>
+    <p>登録が完了しました</p>
     <p>
       <a href="/Sukkiri_Servlet/RegisterUser">戻る</a>
     </p>

@@ -6,7 +6,7 @@ import="model.Fruit"
 %>
 
 <%
-Fruit fruit = (Fruit) request.getAttribute("fruit");
+Fruit fruit = (Fruit) session.getAttribute("fruit");
 %>
 
 <!DOCTYPE html>

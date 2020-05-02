@@ -22,7 +22,7 @@ User registerUser = (User) session.getAttribute("registerUser");
       <label>ログインID：<%= registerUser.getId() %></label>
     </p>
     <p>
-      <label>名前：<%= registerUser.getName() %>></label>
+      <label>名前：<%= registerUser.getName() %></label>
     </p>
     <p>
       <a href="/Sukkiri_Servlet/RegisterUser">戻る</a><br>

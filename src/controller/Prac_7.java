@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import model.Fruit;
 
@@ -21,12 +22,15 @@ public class Prac_7 extends HttpServlet {
       HttpServletResponse response)
       throws ServletException, IOException {
 
+    HttpSession session = request.getSession();
     Fruit fruit = new Fruit("リンゴ", 100);
-    request.setAttribute("fruit", fruit);
+    session.setAttribute("fruit", fruit);
 
     RequestDispatcher dispatcher =
         request.getRequestDispatcher("/WEB-INF/jsp/fruit.jsp");
     dispatcher.forward(request, response);
+
+    session.removeAttribute("fruit");
   }
 
 }
