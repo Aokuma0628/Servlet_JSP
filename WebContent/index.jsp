@@ -8,9 +8,9 @@ pageEncoding="UTF-8"
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>タイトル</title>
+    <title>どこつぶ</title>
   </head>
   <body>
-    <h1>見出し</h1>
+    <h1>どこつぶ</h1>
   </body>
 </html>
